@@ -14,7 +14,7 @@ function CultureHeritageSection() {
             <div className="description">Immerse yourself in the vibrant traditions, historic landmarks, and cultural treasures that make Penang unique. Discover stories of the past and celebrate the rich heritage that lives on today.</div>
             <div className="heritage-grid">
                 <div className="heritage-item">
-                    <img src="/images/heritage1.jpg" alt="Heritage 1" />
+                    <img src="/Culture/images-heritage/heritage1.1.jpg" alt="Heritage 1" />
                     <h3>Kek Lok Si Temple</h3>
                 </div>
                 <div className="heritage-item">
