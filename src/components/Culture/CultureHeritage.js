@@ -1,4 +1,5 @@
 import React from "react";
+import "./CultureHeritage.css";
 import {Link} from "react-router-dom";
 import Heritage1 from "./Heritage1";
 
