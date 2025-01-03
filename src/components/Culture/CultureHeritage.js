@@ -2,6 +2,7 @@ import React from "react";
 import "./CultureHeritage.css";
 import {Link} from "react-router-dom";
 import Heritage1 from "./Heritage1";
+import Heritage2 from "./Heritage2";
 
 const CultureHeritage = () => {
     return (
@@ -23,6 +24,7 @@ const CultureHeritage = () => {
                 </div>
             </div>
             <Heritage1 />
+            <Heritage2 />
         </div>
     );
 };
