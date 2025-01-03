@@ -49,13 +49,15 @@ function Heritage1() {
                 <div className="map-container">
                     <iframe
                         title="Kek Lok Si Temple"
-                        src="https://www.google.com/maps/place/Kek+Lok+Si+Temple/@5.3996413,100.2736126,17z/data=!3m1!4b1!4m6!3m5!1s0x304ac2185dfc8665:0x2c9084ea7f433ec4!8m2!3d5.3996413!4d100.2736126!16zL20vMDVxMnBo?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D"
-                        width="100%"
-                        height="300"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3972.113715992545!2d100.2736126!3d5.3996413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac2185dfc8665%3A0x2c9084ea7f433ec4!2sKek%20Lok%20Si%20Temple!5e0!3m2!1sen!2smy!4v1735873148559!5m2!1sen!2smy"
+                        width="600"
+                        height="450"
+                        style={{border: 0}}
                         allowFullScreen=""
                         loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                        referrerPolicy="no-referrer-when-downgrade">
+
+                    </iframe>
                 </div>
             </div>
 
@@ -64,7 +66,7 @@ function Heritage1() {
                     <span className="close" onClick={closeModal}>
                         &times;
                     </span>
-                    <img className="modal-content" src={currentImage} alt="Popup" />
+                    <img className="modal-content" src={currentImage} alt="Popup"/>
                 </div>
             )}
         </div>
