@@ -26,26 +26,30 @@ function Heritage1() {
                             onClick={() => openModal(require("./images-heritage/heritage1.2.jpg"))}
                         />
                     </div>
+
                     <div className="left-image">
                         <img
                             src={require("./images-heritage/heritage1.3.jpg")}
-                            alt="Kek Lok Si Temple 2"
+                            alt="Kek Lok Si Temple 1"
                             onClick={() => openModal(require("./images-heritage/heritage1.3.jpg"))}
                         />
                     </div>
                 </div>
+
                 <div className="description-container">
                     <p>
                         Kek Lok Si Temple, also known as the "Temple of Supreme Bliss," is one of the largest and most renowned Buddhist temples in Southeast Asia, located on Penang Hill. Built over several decades, this temple complex is a magnificent blend of Chinese, Thai, and Burmese architectural styles. The temple is famous for its grand architecture, including the seven-story pagoda, the towering statue of the Goddess of Mercy (Kuan Yin), and beautiful gardens that attract visitors from all over the world. Kek Lok Si is not just a religious site but also a place for cultural exchange and pilgrimage, especially during the Chinese New Year when thousands of lights illuminate the temple during the annual "lighting up" ceremony.
                     </p>
                 </div>
             </div>
+
             <div className="Part2">
                 <div className="description-container">
                     <p>
                         Entry to most parts of the temple is free, making it accessible to everyone who wishes to experience its serene and spiritual atmosphere. However, visitors are kindly encouraged to contribute through donations, which play a vital role in helping to preserve and maintain this significant cultural and religious landmark for future generations. The temple becomes exceptionally vibrant and enchanting during the Chinese New Year celebrations, as thousands of colorful lanterns and intricate lights are used to illuminate the entire complex, creating a spectacular and festive sight that draws both locals and tourists alike.
                     </p>
                 </div>
+
                 <div className="map-container">
                     <iframe
                         title="Kek Lok Si Temple"
