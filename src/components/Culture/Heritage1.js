@@ -43,7 +43,7 @@ function Heritage1() {
             <div className="Part2">
                 <div className="description-container">
                     <p>
-                        Entry is free for most parts of the temple, but donations are encouraged to help maintain this cultural landmark. The temple is especially lively during Chinese New Year when it's beautifully lit with thousands of lanterns.
+                        Entry to most parts of the temple is free, making it accessible to everyone who wishes to experience its serene and spiritual atmosphere. However, visitors are kindly encouraged to contribute through donations, which play a vital role in helping to preserve and maintain this significant cultural and religious landmark for future generations. The temple becomes exceptionally vibrant and enchanting during the Chinese New Year celebrations, as thousands of colorful lanterns and intricate lights are used to illuminate the entire complex, creating a spectacular and festive sight that draws both locals and tourists alike.
                     </p>
                 </div>
                 <div className="map-container">
