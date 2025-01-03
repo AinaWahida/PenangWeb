@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Heritage1(){
+function Heritage1() {
     const [isOpen, setIsOpen] = useState(false);
     const [currentImage, setCurrentImage] = useState("");
 
@@ -55,3 +55,5 @@ function Heritage1(){
             </div>
     );
 }
+
+export default Heritage1;
