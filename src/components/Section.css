@@ -100,13 +100,18 @@
 }
 
 .heritage-item {
-    max-width: 150px;
+    max-width: 250px;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(255, 218, 185, 0.6);
 }
 
 .heritage-item img {
-    width: 100%;
+    width: 220px;
+    height: 160px;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 .hotels-section {
