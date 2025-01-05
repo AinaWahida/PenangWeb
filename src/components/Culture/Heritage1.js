@@ -21,6 +21,11 @@ function Heritage1() {
                 <div className="image-container">
                     <div className="right-image">
                         <img
+                            src={require("./images-heritage/heritage1.1.jpg")}
+                            alt="Kek Lok Si Temple 1"
+                            onClick={() => openModal(require("./images-heritage/heritage1.1.jpg"))}
+                        />
+                        <img
                             src={require("./images-heritage/heritage1.2.jpg")}
                             alt="Kek Lok Si Temple 1"
                             onClick={() => openModal(require("./images-heritage/heritage1.2.jpg"))}
@@ -33,12 +38,18 @@ function Heritage1() {
                             alt="Kek Lok Si Temple 1"
                             onClick={() => openModal(require("./images-heritage/heritage1.3.jpg"))}
                         />
+                        <img
+                            src={require("./images-heritage/heritage1.4.jpeg")}
+                            alt="Kek Lok Si Temple 1"
+                            onClick={() => openModal(require("./images-heritage/heritage1.4.jpeg"))}
+                        />
                     </div>
                 </div>
 
                 <div className="description-container">
                     <p>
-                        Kek Lok Si Temple, also known as the "Temple of Supreme Bliss," is one of the largest and most renowned Buddhist temples in Southeast Asia, located on Penang Hill. Built over several decades, this temple complex is a magnificent blend of Chinese, Thai, and Burmese architectural styles. The temple is famous for its grand architecture, including the seven-story pagoda, the towering statue of the Goddess of Mercy (Kuan Yin), and beautiful gardens that attract visitors from all over the world. Kek Lok Si is not just a religious site but also a place for cultural exchange and pilgrimage, especially during the Chinese New Year when thousands of lights illuminate the temple during the annual "lighting up" ceremony.
+                        Kek Lok Si Temple, also known as the "Temple of Supreme Bliss," is one of the largest and most
+                        renowned Buddhist temples in Southeast Asia, located on Penang Hill. Built over several decades, this temple complex is a magnificent blend of Chinese, Thai, and Burmese architectural styles. The temple is famous for its grand architecture, including the seven-story pagoda, the towering statue of the Goddess of Mercy (Kuan Yin), and beautiful gardens that attract visitors from all over the world. Kek Lok Si is not just a religious site but also a place for cultural exchange and pilgrimage, especially during the Chinese New Year when thousands of lights illuminate the temple during the annual "lighting up" ceremony.
                     </p>
                 </div>
             </div>
