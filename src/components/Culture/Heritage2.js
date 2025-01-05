@@ -21,24 +21,24 @@ function Heritage2() {
                 <div className="image-container">
                     <div className="right-image">
                         <img
-                            src={require("./images-heritage/heritage1.2.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage1.2.jpg"))}
+                            src={require("./images-heritage/heritage2.2.jpg")}
+                            alt="Pinang Peranakan Mansion 1"
+                            onClick={() => openModal(require("./images-heritage/heritage2.2.jpg"))}
                         />
                     </div>
 
                     <div className="left-image">
                         <img
-                            src={require("./images-heritage/heritage1.3.jpg")}
+                            src={require("./images-heritage/heritage2.3.webp")}
                             alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage1.3.jpg"))}
+                            onClick={() => openModal(require("./images-heritage/heritage2.3.webp"))}
                         />
                     </div>
                 </div>
 
                 <div className="description-container">
                     <p>
-                        Kek Lok Si Temple, also known as the "Temple of Supreme Bliss," is one of the largest and most renowned Buddhist temples in Southeast Asia, located on Penang Hill. Built over several decades, this temple complex is a magnificent blend of Chinese, Thai, and Burmese architectural styles. The temple is famous for its grand architecture, including the seven-story pagoda, the towering statue of the Goddess of Mercy (Kuan Yin), and beautiful gardens that attract visitors from all over the world. Kek Lok Si is not just a religious site but also a place for cultural exchange and pilgrimage, especially during the Chinese New Year when thousands of lights illuminate the temple during the annual "lighting up" ceremony.
+                        Step into the world of the Straits Chinese at the Pinang Peranakan Mansion, a museum dedicated to Penang’s Peranakan heritage. This beautifully restored heritage house offers a glimpse into the opulent lifestyle and customs of the Peranakans. With over 1,000 antiques and collectibles on display, the mansion provides a unique cultural experience that showcases the rich history of the Baba-Nyonya community.
                     </p>
                 </div>
             </div>
