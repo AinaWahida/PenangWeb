@@ -21,26 +21,26 @@ function Heritage3() {
                 <div className="image-container">
                     <div className="right-image">
                         <img
-                            src={require("./images-heritage/heritage3.1.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage3.1.jpg"))}
+                            src={require("./images-heritage/heritage3.2.jpg")}
+                            alt="UNESCO 1"
+                            onClick={() => openModal(require("./images-heritage/heritage3.2.jpg"))}
                         />
                         <img
-                            src={require("./images-heritage/heritage3.2.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage3.2.jpg"))}
+                            src={require("./images-heritage/heritage3.7.jpg")}
+                            alt="UNESCO 2"
+                            onClick={() => openModal(require("./images-heritage/heritage3.7.jpg"))}
                         />
                     </div>
 
                     <div className="left-image">
                         <img
-                            src={require("./images-heritage/heritage3.5.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage3.5.jpg"))}
+                            src={require("./images-heritage/heritage3.8.jpg")}
+                            alt="UNESCO 3"
+                            onClick={() => openModal(require("./images-heritage/heritage3.8.jpg"))}
                         />
                         <img
                             src={require("./images-heritage/heritage3.6.jpg")}
-                            alt="Kek Lok Si Temple 1"
+                            alt="UNESCO 4"
                             onClick={() => openModal(require("./images-heritage/heritage3.6.jpg"))}
                         />
                     </div>
@@ -69,8 +69,7 @@ function Heritage3() {
 
                 <div className="map-container">
                     <iframe
-                        title="Kek Lok Si Temple"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3972.113715992545!2d100.2736126!3d5.3996413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac2185dfc8665%3A0x2c9084ea7f433ec4!2sKek%20Lok%20Si%20Temple!5e0!3m2!1sen!2smy!4v1735873148559!5m2!1sen!2smy"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.999760550612!2d100.3379775!3d5.4170036999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac391217398d1%3A0xe3374c478de7ca59!2sGeorgetown%20UNESCO%20Historic%20Site!5e0!3m2!1sen!2smy!4v1736094382747!5m2!1sen!2smy"
                         width="600"
                         height="450"
                         style={{border: 0}}

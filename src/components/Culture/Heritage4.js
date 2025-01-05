@@ -16,40 +16,43 @@ function Heritage4() {
 
     return (
         <div className="heritageSection">
-            <h1> Kek Lok Si Temple</h1>
+            <h1> Armenian Street</h1>
             <div className="Part1">
                 <div className="image-container">
                     <div className="right-image">
                         <img
-                            src={require("./images-heritage/heritage1.1.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage1.1.jpg"))}
+                            src={require("./images-heritage/heritage4.2.jpg")}
+                            alt="Armenian 1"
+                            onClick={() => openModal(require("./images-heritage/heritage4.2.jpg"))}
                         />
                         <img
-                            src={require("./images-heritage/heritage1.2.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage1.2.jpg"))}
+                            src={require("./images-heritage/heritage4.5.jpg")}
+                            alt="Armenian 2"
+                            onClick={() => openModal(require("./images-heritage/heritage4.5.jpg"))}
                         />
                     </div>
 
                     <div className="left-image">
                         <img
-                            src={require("./images-heritage/heritage1.3.jpg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage1.3.jpg"))}
+                            src={require("./images-heritage/heritage4.6.webp")}
+                            alt="Armenian 3"
+                            onClick={() => openModal(require("./images-heritage/heritage4.6.webp"))}
                         />
                         <img
-                            src={require("./images-heritage/heritage1.4.jpeg")}
-                            alt="Kek Lok Si Temple 1"
-                            onClick={() => openModal(require("./images-heritage/heritage1.4.jpeg"))}
+                            src={require("./images-heritage/heritage3.3.png")}
+                            alt="Armenian 4"
+                            onClick={() => openModal(require("./images-heritage/heritage3.3.png"))}
                         />
                     </div>
                 </div>
 
                 <div className="description-container">
                     <p>
-                        Kek Lok Si Temple, also known as the "Temple of Supreme Bliss," is one of the largest and most
-                        renowned Buddhist temples in Southeast Asia, located on Penang Hill. Built over several decades, this temple complex is a magnificent blend of Chinese, Thai, and Burmese architectural styles. The temple is famous for its grand architecture, including the seven-story pagoda, the towering statue of the Goddess of Mercy (Kuan Yin), and beautiful gardens that attract visitors from all over the world. Kek Lok Si is not just a religious site but also a place for cultural exchange and pilgrimage, especially during the Chinese New Year when thousands of lights illuminate the temple during the annual "lighting up" ceremony.
+                        Armenian Street, or Lebuh Armenian, is a vibrant cultural hub in the heart of George Town, known for its colorful street art and rich history.
+                        The street is lined with heritage shophouses, many of which have been converted into art galleries, cafes, and boutique shops.
+                        Visitors can enjoy a leisurely stroll while discovering striking murals, including the famous "Little Children on a Bicycle" by Ernest Zacharevic.
+                        This lively street offers a perfect blend of history, art, and culture, making it a favorite spot for tourists and locals alike.
+                        With its blend of old-world charm and contemporary creativity, Armenian Street truly captures the spirit of George Town’s ever-evolving cultural scene.
                     </p>
                 </div>
             </div>
@@ -57,14 +60,17 @@ function Heritage4() {
             <div className="Part2">
                 <div className="description-container">
                     <p>
-                        Entry to most parts of the temple is free, making it accessible to everyone who wishes to experience its serene and spiritual atmosphere. However, visitors are kindly encouraged to contribute through donations, which play a vital role in helping to preserve and maintain this significant cultural and religious landmark for future generations. The temple becomes exceptionally vibrant and enchanting during the Chinese New Year celebrations, as thousands of colorful lanterns and intricate lights are used to illuminate the entire complex, creating a spectacular and festive sight that draws both locals and tourists alike.
+                        Exploring Armenian Street is free of charge, allowing visitors to experience its unique blend of heritage and art at no cost.
+                        Armenian Street is not only a popular spot for its vibrant street art but also an area steeped in history.
+                        It is one of the oldest streets in George Town, dating back to the early 19th century, and was once home to a large Armenian community that contributed greatly to the development of Penang’s commercial and cultural landscape.
+                        Today, the street retains its historical charm with beautifully preserved architecture and an array of quaint shops offering local crafts, souvenirs, and antiques.
+                        Alongside the murals, visitors can also explore the nearby Armenian Street Temple, an iconic religious site that adds to the street’s historical significance.
                     </p>
                 </div>
 
                 <div className="map-container">
                     <iframe
-                        title="Kek Lok Si Temple"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3972.113715992545!2d100.2736126!3d5.3996413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac2185dfc8665%3A0x2c9084ea7f433ec4!2sKek%20Lok%20Si%20Temple!5e0!3m2!1sen!2smy!4v1735873148559!5m2!1sen!2smy"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.0101619229004!2d100.33450287364296!3d5.415421235050108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac392206169e9%3A0xa4ce7dbc3851110e!2sLbh%20Armenian%2C%20George%20Town%2C%2010450%20George%20Town%2C%20Pulau%20Pinang!5e0!3m2!1sen!2smy!4v1736095556004!5m2!1sen!2smy"
                         width="600"
                         height="450"
                         style={{border: 0}}
