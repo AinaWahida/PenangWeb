@@ -1,5 +1,10 @@
 import React from "react";
+import "./CultureHeritage.css";
 import {Link} from "react-router-dom";
+import Heritage1 from "./Heritage1";
+import Heritage2 from "./Heritage2";
+import Heritage3 from "./Heritage3";
+import Heritage4 from "./Heritage4";
 
 const CultureHeritage = () => {
     return (
@@ -20,8 +25,10 @@ const CultureHeritage = () => {
                     <h1>Culture & Heritage</h1>
                 </div>
             </div>
-            <h2>Culture & Heritage</h2>
-            <p>Learn about Penang's rich culture and history!</p>
+            <Heritage1 />
+            <Heritage2 />
+            <Heritage3 />
+            <Heritage4 />
         </div>
     );
 };
