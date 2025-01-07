@@ -61,14 +61,21 @@
     align-items: center;
     text-align: justify;
     gap: 70px;
-    padding: 15px 60px;
+    padding: 15px 50px;
 }
 .div3{
     display: flex;
     align-items: center;
     text-align: justify;
     gap: 70px;
-    padding: 35px 35px;
+    padding: 30px 25px;
+}
+.div4{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 70px;
+    padding: 10px 35px;
 }
 .div1 p, .div2 p {
     font-size: 18px;
@@ -125,7 +132,11 @@
 .navigate-button:hover {
     background-color: rgb(2, 25, 98, 0.85);
 }
-
+.div3 iframe {
+    border-radius: 8px;        /* Rounded corners for map */
+    width: 100%;               /* Full width */
+    border:0;
+}
 /* Modal Styling */
 .modal {
     display: flex;

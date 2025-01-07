@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import "./Hotels.css";
 import Hotel1 from "./Hotel1";
 import Hotel2 from "./Hotel2";
+import Hotel3 from "./Hotel3";
 
 const Hotels = () => {
     return (
@@ -25,6 +26,7 @@ const Hotels = () => {
             </div>
             <Hotel1 />
             <Hotel2 />
+            <Hotel3 />
         </div>
     );
 };

@@ -67,10 +67,19 @@ function Hotel1() {
                     </div>
                 </div>
             </div>
-            <div className= "div3">
-                <div className= "book">
+            <div className="div3">
+                <iframe
+                    title="Shangri-La Golden Sands"
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127091.45083816827!2d100.16875234601757!3d5.476298470899102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x304ae7fc638b5711%3A0x727e15af4b3c60e3!2sJalan%20Batu%20Ferringhi%2C%20Kampung%20Tanjung%20Huma%2C%2011100%20Batu%20Ferringhi%2C%20Pulau%20Pinang!3m2!1d5.4763041!2d100.2511543!5e0!3m2!1sen!2smy!4v1736269051777!5m2!1sen!2smy"
+                    width="100%" height="300" allowFullScreen="" loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div className="div4">
+                <div className="book">
                     <h3>Click the link below to book now!</h3>
-                    <Link to="https://www.booking.com/hotel/my/golden-sands-resort-by-shangri-la.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCIWdvbGRlbi1zYW5kcy1yZXNvcnQtYnktc2hhbmdyaS1sYUgzWANooQGIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4Aq6l8LsGwAIB0gIkNDE2ZTg2ZGItNDhhMC00YjliLTliMjQtOGZhNDYxOTRjYjFi2AIE4AIB&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&">
+                    <Link
+                        to="https://www.booking.com/hotel/my/golden-sands-resort-by-shangri-la.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCIWdvbGRlbi1zYW5kcy1yZXNvcnQtYnktc2hhbmdyaS1sYUgzWANooQGIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4Aq6l8LsGwAIB0gIkNDE2ZTg2ZGItNDhhMC00YjliLTliMjQtOGZhNDYxOTRjYjFi2AIE4AIB&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&">
                         <button className="navigate-button">Book Now</button>
                     </Link>
                 </div>
@@ -79,7 +88,7 @@ function Hotel1() {
             {isOpen && (
                 <div className="modal" onClick={closeModal}>
                     <span className="close" onClick={closeModal}>&times;</span>
-                    <img className="modal-content" src={currentImage} alt="Popup" />
+                    <img className="modal-content" src={currentImage} alt="Popup"/>
                 </div>
             )}
 
