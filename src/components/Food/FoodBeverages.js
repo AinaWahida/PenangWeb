@@ -1,5 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import Food1 from "../Food/Food1";
+import Food2 from "../Food/Food2";
+import Food3 from "../Food/Food3";
+import Food4 from "../Food/Food4";
+import Food5 from "../Food/Food5";
+
 
 const FoodBeverages = () => {
     return (
@@ -20,8 +26,11 @@ const FoodBeverages = () => {
                     <h1>Food & Beverages</h1>
                 </div>
             </div>
-            <h2>Food & Beverages</h2>
-            <p>Explore delicious Penang cuisine and drinks!</p>
+            <Food1 />
+            <Food2 />
+            <Food3 />
+            <Food4 />
+            <Food5 />
         </div>
     );
 };
