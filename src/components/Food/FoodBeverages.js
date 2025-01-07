@@ -1,4 +1,5 @@
 import React from "react";
+import "./FoodBevarage.css";
 import {Link} from "react-router-dom";
 import Food1 from "../Food/Food1";
 import Food2 from "../Food/Food2";
