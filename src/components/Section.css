@@ -55,7 +55,7 @@
 
 .food-section {
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #f3f3f3;
     padding: 10px 20px;
 }
 
@@ -72,13 +72,19 @@
 }
 
 .food-item {
-    max-width: 150px;
+    max-width: 250px;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(255, 218, 185, 0.6);
 }
 
 .food-item img {
-    width: 100%;
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 .heritage-section {
