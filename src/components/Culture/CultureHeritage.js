@@ -11,9 +11,9 @@ const CultureHeritage = () => {
                     </div>
                     <ul className="Menu">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/trourist-attraction">Places to Go</Link></li>
+                        <li><Link to="/tourist-attraction">Places to Go</Link></li>
                         <li><Link to="/food-beverages">Yummy Things</Link></li>
-                        <li><Link to="/hotels">Places to Go</Link></li>
+                        <li><Link to="/hotels">Places to Stay</Link></li>
                     </ul>
                 </nav>
                 <div className="intro-content">

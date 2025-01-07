@@ -15,9 +15,9 @@ function HotelsSection() {
             <div className="hotels-grid">
                 <div className="hotel-item">
                     <img src={require('./Hotel/images-hotel/hotel1.jpg')} alt="Hotel 1"/>
-                    <h3>Shangri-la Resorts</h3>
+                    <h3>Shangri-La Golden Sands</h3>
                     <p>Batu Feringgi</p>
-                    <div className="hotel-rating">★★★★★</div>
+                    <div className="hotel-rating">★★★★</div>
                     <p>Indulge in serene luxury with breathtaking sea views and lush tropical gardens.</p>
                 </div>
                 <div className="hotel-item">
@@ -30,7 +30,7 @@ function HotelsSection() {
                 <div className="hotel-item">
                     <img src={require('./Hotel/images-hotel/hotel3.jpg')} alt="Hotel 3"/>
                     <h3>Lexis Hotel</h3>
-                    <p>Geortown</p>
+                    <p>Georgetown</p>
                     <div className="hotel-rating">★★★★</div>
                     <p>Relax in spacious rooms with private pools overlooking the serene waterfront.</p>
                 </div>

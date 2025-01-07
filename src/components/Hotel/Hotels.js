@@ -1,5 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "./Hotels.css";
+import Hotel1 from "./Hotel1";
+import Hotel2 from "./Hotel2";
 
 const Hotels = () => {
     return (
@@ -20,8 +23,8 @@ const Hotels = () => {
                     <h1>Hotels</h1>
                 </div>
             </div>
-            <h2>Hotels</h2>
-            <p>Find the best places to stay in Penang.</p>
+            <Hotel1 />
+            <Hotel2 />
         </div>
     );
 };
