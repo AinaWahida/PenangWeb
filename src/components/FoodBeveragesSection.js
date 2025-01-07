@@ -25,13 +25,11 @@ function FoodBeveragesSection() {
                     <h3>Fine Dining</h3>
                 </div>
                 <div className="food-item">
-                    <
                     <img src={require("./Food/images/image1.4.jpg")} alt="Food 4" />
                     <h3>Fine Dining</h3>
                 </div>
                 <div className="food-item">
-                    <
-                    <img src={require("./Food/images/image1.5.jpg")} alt="Food 5" />
+                    <img src={require("./Food/images/image1.1.jpg")} alt="Food 5" />
                     <h3>Fine Dining</h3>
                 </div>
             </div>
