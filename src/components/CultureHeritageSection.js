@@ -14,24 +14,29 @@ function CultureHeritageSection() {
             <div className="description">Immerse yourself in the vibrant traditions, historic landmarks, and cultural treasures that make Penang unique. Discover stories of the past and celebrate the rich heritage that lives on today.</div>
             <div className="heritage-grid">
                 <div className="heritage-item">
-                    <img src={require("./Culture/images-heritage/heritage1.1.jpg")} alt="Heritage 1" />
+                    <img src={require("./Culture/images-heritage/heritage1.1.jpg")} alt="Heritage 1"/>
                     <h3>Kek Lok Si Temple</h3>
                     <p>Explore the stunning architecture and peaceful ambiance of Penang's largest Buddhist temple.</p>
                 </div>
                 <div className="heritage-item">
-                    <img src={require("./Culture/images-heritage/heritage2.1.webp")} alt="Heritage 2" />
+                    <img src={require("./Culture/images-heritage/heritage2.1.webp")} alt="Heritage 2"/>
                     <h3>Pinang Peranakan Mansion</h3>
                     <p>Step back in time and experience the opulence of Peranakan culture and heritage.</p>
                 </div>
                 <div className="heritage-item">
-                    <img src={require("./Culture/images-heritage/heritage3.1.jpg")} alt="Heritage 3" />
+                    <img src={require("./Culture/images-heritage/heritage3.1.jpg")} alt="Heritage 3"/>
                     <h3>George Town UNESCO World Heritage Site</h3>
                     <p>Walk through historic streets filled with unique architecture and rich cultural history.</p>
                 </div>
                 <div className="heritage-item">
-                    <img src={require("./Culture/images-heritage/heritage4.1.jpg")} alt="Heritage 4" />
+                    <img src={require("./Culture/images-heritage/heritage4.1.jpg")} alt="Heritage 4"/>
                     <h3>Armenian Street</h3>
                     <p>Discover vibrant street art and immerse yourself in Penang's creative scene.</p>
+                </div>
+                <div className="heritage-item">
+                    <img src={require("./Culture/images-heritage/heritage4.1.jpg")} alt="Heritage 4"/>
+                    <h3>Kapitan Keling Mosque</h3>
+                    <p>Visit the Kapitan Keling Mosque in Georgetown, a stunning landmark of Moghul architecture and cultural heritage.</p>
                 </div>
             </div>
         </div>
