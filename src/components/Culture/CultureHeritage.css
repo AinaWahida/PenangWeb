@@ -29,16 +29,29 @@
     gap: 5px;
 }
 
+.left-image {
+    display: block;
+}
+
 .left-image, .right-image {
     flex: 1;
-    max-width: 300px;
+    max-width: 260px;
     height: 300px;
 }
 
-.left-image img, .right-image img {
+.left-image img {
     width: 250px;
     height: 160px;
     object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid black;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.right-image img {
+    width: 250px;
+    height: 160px;
     border-radius: 12px;
     border: 3px solid black;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
