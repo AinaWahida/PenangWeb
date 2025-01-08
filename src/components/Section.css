@@ -18,149 +18,74 @@
     text-align: left;
     padding-left: 85px;
     margin-bottom: 25px;
+    flex-grow: 1;
 }
 
-.attraction-section {
-    text-align: center;
-    background-color: #f3f3f3;
-    padding: 10px 20px;
-}
-
-.attraction-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.attraction-grid {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.attraction-item {
-    max-width: 250px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    background: rgba(255, 218, 185, 0.6);
-}
-
-.attraction-item img {
-    width: 220px;
-    height: 160px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.food-section {
-    text-align: center;
-    background-color: #f3f3f3;
-    padding: 10px 20px;
-}
-
-.food-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.food-grid {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.food-item {
-    max-width: 250px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    background: rgba(255, 218, 185, 0.6);
-}
-
-.food-item img {
-    width: 220px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
+.attraction-section,
 .heritage-section {
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #f3f3f3;
     padding: 10px 20px;
 }
 
-.heritage-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.heritage-grid {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.heritage-item {
-    max-width: 250px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    background: rgba(255, 218, 185, 0.6);
-}
-
-.heritage-item img {
-    width: 220px;
-    height: 160px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
+.food-section,
 .hotels-section {
     text-align: center;
     background-color: #f9f9f9;
     padding: 10px 20px;
 }
 
+.attraction-section h2,
+.food-section h2,
+.heritage-section h2,
 .hotels-section h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
     color: #333;
 }
 
+.attraction-grid,
+.food-grid,
+.heritage-grid,
 .hotels-grid {
     display: flex;
     justify-content: center;
     gap: 15px;
+    flex-wrap: wrap; /* Allow items to wrap in smaller screens */
 }
 
+.attraction-item,
+.food-item,
+.heritage-item,
 .hotel-item {
-    width: 230px;
+    max-width: 250px;
     text-align: center;
-    border-radius: 10px;
     border: 1px solid black;
-    padding: 10px;
-    color: #333;
+    border-radius: 10px;
     background: rgba(255, 218, 185, 0.6);
 }
 
+.attraction-item img,
+.food-item img,
+.heritage-item img,
 .hotel-item img {
-    width: 220px;
-    height: 160px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* This ensures images maintain their aspect ratio */
     border-radius: 8px;
-    margin: 0 auto 10px auto;
+    margin-top: 10px;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
 }
 
-.hotel-item h3{
-    margin-top: 1px;
-    margin-bottom: 1px;
-    color: black;
+.attraction-item:hover,
+.food-item:hover,
+.heritage-item:hover,
+.hotel-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
-.hotel-item p{
+
+.hotel-item h3,
+.hotel-item p {
     margin-top: 1px;
     margin-bottom: 1px;
     color: black;
@@ -181,7 +106,6 @@
     text-align: center;
 }
 
-
 .see-more-button {
     background-color: lightgray;
     color: black;
@@ -198,4 +122,79 @@
 .see-more-button:hover {
     background-color: gray;
     transform: scale(1.05);
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 768px) {
+    /* Title and Description Adjustment */
+    .title {
+        flex-direction: row;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .description {
+        text-align: left;
+        font-size: 1rem;  /* Adjust font size */
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    /* Grid Adjustments */
+    .heritage-grid, .food-grid, .hotels-grid, .attraction-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heritage-item, .food-item, .hotel-item, .attraction-item {
+        max-width: 80%;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    /* Adjust Images for Small Screens */
+    .heritage-item img, .food-item img, .hotel-item img, .attraction-item img {
+        width: 100%;  /* Make images responsive */
+        height: auto;  /* Maintain aspect ratio */
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Button Styling */
+    .see-more-button {
+        width: 78px;
+        text-align: center;
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-top: 19px;
+    }
+
+    /* Adjust Font Size for Mobile */
+    .title h2 {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .heritage-item h3, .food-item h3, .hotel-item h3, .attraction-item h3 {
+        font-size: 1rem;  /* Adjust heading size */
+    }
+
+    .heritage-item p, .food-item p, .hotel-item p, .attraction-item p {
+        font-size: 0.9rem;  /* Adjust paragraph size */
+    }
+
+    /* Adjust the button on hover */
+    .see-more-button:hover {
+        background-color: gray;
+        transform: scale(1.02);
+    }
+
+    /* Adjust the hotel rating */
+    .hotel-rating {
+        font-size: 1.2rem;
+    }
 }
