@@ -19,7 +19,7 @@ function Food5() {
     };
 
     return (
-        <div className="section">
+        <div className="Food-section">
             <h1>Wantan Mee</h1>
             <div className="Part-1">
                 <p>
@@ -43,7 +43,7 @@ function Food5() {
                 <iframe
                     title="Fried WanTon Mee"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63552.28205448223!2d100.26486672167964!3d5.414285000000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3923fcce73f%3A0x669e42e3672267ee!2sFried%20Wan%20Ton%20Mee!5e0!3m2!1sen!2smy!4v1736269537389!5m2!1sen!2smy"
-                    width="500" height="300" allowFullScreen="" loading="lazy"
+                    width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
                 <div className="left">

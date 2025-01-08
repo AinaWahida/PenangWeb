@@ -19,7 +19,7 @@ function Food3() {
     };
 
     return (
-        <div className="section">
+        <div className="Food-section">
             <h1>Ais Tingkap</h1>
             <div className="Part-1">
                 <p>
@@ -44,7 +44,7 @@ function Food3() {
                 <iframe
                     title="Ais Tingkap"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.994326886066!2d100.32883287498412!3d5.4178301945613905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3971dd6691f%3A0xf659b74743d1419b!2sAis%20Tingkap!5e0!3m2!1sen!2smy!4v1736188753981!5m2!1sen!2smy"
-                    width="500" height="300" allowFullScreen="" loading="lazy"
+                    width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
                 <div className="left">

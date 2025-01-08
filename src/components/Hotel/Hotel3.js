@@ -16,7 +16,7 @@ function Hotel3() {
     };
 
     return(
-        <div className = "section">
+        <div className = "HotelSection">
             <h1>Lexis Suites</h1>
             <div className= "div1">
                 <div className="collage">
@@ -62,6 +62,7 @@ function Hotel3() {
             </div>
             <div className="div3">
                 <iframe
+                    title="Lexis Suites"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.8431571853803!2d100.23034987498322!3d5.28715629469106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304a9515ef5ca3b7%3A0x5f06f5287407767f!2sLexis%20Suites%20Penang!5e0!3m2!1sen!2smy!4v1736348072521!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">

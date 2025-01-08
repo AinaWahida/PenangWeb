@@ -16,7 +16,7 @@ function Hotel4() {
     };
 
     return(
-        <div className = "section">
+        <div className = "HotelSection">
             <h1>Tido Hostel</h1>
             <div className="div1">
                 <p>Tido Hostel Penang is a city hostel situated in the heart of George Town, Penang, within the UNESCO heritage site.
@@ -61,6 +61,7 @@ function Hotel4() {
             </div>
             <div className="div3">
                 <iframe
+                    title="Tido Hostel"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9700067913946!2d100.32848457498419!3d5.4215278945577445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac399c87d3dd5%3A0x52cf5b30742da487!2sTIDO%20Hostel%20Penang!5e0!3m2!1sen!2smy!4v1736350723829!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">

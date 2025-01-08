@@ -16,7 +16,7 @@ function Hotel2() {
     };
 
     return(
-        <div className = "section">
+        <div className = "HotelSection">
             <h1>Hard Rock Hotel</h1>
             <div className="div1">
                 <p>Hard Rock Hotel Penang is a vibrant 5-star beachfront resort located along Batu Feringgi Beach, offering an exciting atmosphere with a music-inspired theme.
@@ -65,6 +65,7 @@ function Hotel2() {
             </div>
             <div className="div3">
                 <iframe
+                    title="Hard Rock Hotel"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.664974398775!2d100.23898077498454!3d5.467694194511937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae7fdb471d61d%3A0xed51474b3f6eda01!2sHard%20Rock%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1736348291540!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">

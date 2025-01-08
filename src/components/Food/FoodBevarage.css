@@ -1,139 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Serif+Text:ital@0;1&family=Itim&family=Pacifico&display=swap');
 
-
-
-.section {
+.Food-section {
     padding: 20px 50px;
     font-family: "DM Serif Text", serif;
 }
 
 /* Section 1*/
-.section h1{
+.Food-section h1{
     text-align: center;
     font-size: 40px;
     color: white;
     font-family: "Carter One", cursive;
     background: rgba(2, 25, 69, 0.85);
+    padding: 10px;
+    border-radius: 8px;
 }
-.Part-1, .Part-2, .Part-3 {
+.Part-1, .Part-2 {
     display: flex;
     align-items: center;
     text-align: justify;
     gap: 70px;
     padding: 15px 60px;
 }
-.Part-1 p {
+.Part-1 p, .Part-2 p {
     font-size: 18px;
     padding: 10px;
 }
 
-.Part-2 p {
-    font-size: 18px;
-    padding: 10px;
-    width: 1000px;
-}
-.collage {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.left{
-    display: block;
-    object-fit: cover;
-}
-.left img {
-    width: 250px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 3px solid black;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-.right img {
-    width: 220px;
-    height: 330px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 3px solid black;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-.collage img:hover {
-    transform: scale(1.05);
-}
-
-.fee table {
-    width: 700px;
-    margin: 20px 0;
-    border-collapse: collapse;
-}
-
-.fee table th, .fee table td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-}
-
-.fee table th {
-    background-color: #02325A;
-    color: white;
-}
-
-.fee table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-.fee p {
-    margin-top: 15px;
-    font-size: 16px;
-    color: #555;
-}
-
-.fee h3{
+.Part-2 iframe {
     width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Modal Styling */
-.modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
-.modal-content {
-    max-width: 80%;
-    max-height: 80%;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    animation: fadeIn 0.3s ease-in-out;
-}
+/* Phone View */
+@media screen and (max-width: 768px) {
 
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-    user-select: none;
-}cd
-
-/* Animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+    /* .section: Adjust padding */
+    .Food-section {
+        padding: 15px 30px;
     }
-    to {
-        opacity: 1;
+
+    /* .Part-1, .Part-2, .Part-3: Layout on small screens */
+    .Part-1, .Part-2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        gap: 30px;
+        padding: 10px 20px;
+    }
+
+    .Part-1 p, .Part-2 p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .left img {
+        width: 100%;  /* Make images responsive */
+        height: 200px;
+        border-radius: 10px;
     }
 }

@@ -16,7 +16,7 @@ function Hotel1() {
     };
 
     return(
-        <div className = "section">
+        <div className = "HotelSection">
             <h1>Shangri-La Golden Sands</h1>
             <div className= "div1">
                 <div className="collage">
@@ -69,6 +69,7 @@ function Hotel1() {
             </div>
             <div className="div3">
                 <iframe
+                    title="Shangri-La Golden Sands"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.607801320573!2d100.24857937498459!3d5.476304094503387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae7fc638b5711%3A0x727e15af4b3c60e3!2sShangri-La%20Golden%20Sands%2C%20Penang!5e0!3m2!1sen!2smy!4v1736348203575!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">

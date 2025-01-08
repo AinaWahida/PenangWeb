@@ -126,7 +126,7 @@ body {
     }
 
     .banner-content h1 {
-        font-size: 45px; /* Decrease the banner heading size */
+        font-size: 55px; /* Decrease the banner heading size */
         margin-bottom: 10px;
     }
 
@@ -144,8 +144,8 @@ body {
     }
 
     .btn {
-        width: 100%; /* Button takes up full width on mobile */
-        height: 45px; /* Maintain height for usability */
+        width: 80%; /* Button takes up full width on mobile */
+        height: 35px; /* Maintain height for usability */
         font-size: 14px; /* Adjust font size */
         padding: 8px 20px;
     }
