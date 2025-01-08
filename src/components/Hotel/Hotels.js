@@ -4,6 +4,7 @@ import "./Hotels.css";
 import Hotel1 from "./Hotel1";
 import Hotel2 from "./Hotel2";
 import Hotel3 from "./Hotel3";
+import Hotel4 from "./Hotel4";
 
 const Hotels = () => {
     return (
@@ -27,6 +28,7 @@ const Hotels = () => {
             <Hotel1 />
             <Hotel2 />
             <Hotel3 />
+            <Hotel4 />
         </div>
     );
 };

@@ -23,7 +23,7 @@ function Hotel1() {
                     <div className="left">
                         <img src={require('./images-hotel/hotel1.jpg')} alt="img1"
                              onClick={() => openModal(require('./images-hotel/hotel1.jpg'))}/>
-                        <img src={require('./images-hotel/Hotel1_1.jpg')} alt="img5"
+                        <img src={require('./images-hotel/Hotel1_1.jpg')} alt="img2"
                              onClick={() => openModal(require('./images-hotel/Hotel1_1.jpg'))}/>
                     </div>
                     <div className="left">
@@ -62,15 +62,14 @@ function Hotel1() {
                     <div className="left">
                         <img src={require('./images-hotel/Hotel1_6.JPG')} alt="img7"
                              onClick={() => openModal(require('./images-hotel/Hotel1_6.JPG'))}/>
-                        <img src={require('./images-hotel/Hotel1_7.jpg')} alt="img7"
+                        <img src={require('./images-hotel/Hotel1_7.jpg')} alt="img8"
                              onClick={() => openModal(require('./images-hotel/Hotel1_7.jpg'))}/>
                     </div>
                 </div>
             </div>
             <div className="div3">
                 <iframe
-                    title="Shangri-La Golden Sands"
-                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127091.45083816827!2d100.16875234601757!3d5.476298470899102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x304ae7fc638b5711%3A0x727e15af4b3c60e3!2sJalan%20Batu%20Ferringhi%2C%20Kampung%20Tanjung%20Huma%2C%2011100%20Batu%20Ferringhi%2C%20Pulau%20Pinang!3m2!1d5.4763041!2d100.2511543!5e0!3m2!1sen!2smy!4v1736269051777!5m2!1sen!2smy"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.607801320573!2d100.24857937498459!3d5.476304094503387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae7fc638b5711%3A0x727e15af4b3c60e3!2sShangri-La%20Golden%20Sands%2C%20Penang!5e0!3m2!1sen!2smy!4v1736348203575!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>

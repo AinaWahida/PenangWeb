@@ -42,13 +42,13 @@ function Hotel2() {
                     <div className="left">
                         <img src={require('./images-hotel/Hotel2_3.jpg')} alt="img4"
                              onClick={() => openModal(require('./images-hotel/Hotel2_3.jpg'))}/>
-                        <img src={require('./images-hotel/Hotel2_4.jpg')} alt="img6"
+                        <img src={require('./images-hotel/Hotel2_4.jpg')} alt="img5"
                              onClick={() => openModal(require('./images-hotel/Hotel2_4.jpg'))}/>
                     </div>
                     <div className="left">
-                        <img src={require('./images-hotel/Hotel2_5.jpg')} alt="img3"
+                        <img src={require('./images-hotel/Hotel2_5.jpg')} alt="img6"
                              onClick={() => openModal(require('./images-hotel/Hotel2_5.jpg'))}/>
-                        <img src={require('./images-hotel/Hotel2_6.jpg')} alt="img4"
+                        <img src={require('./images-hotel/Hotel2_6.jpg')} alt="img7"
                              onClick={() => openModal(require('./images-hotel/Hotel2_6.jpg'))}/>
                     </div>
 
@@ -65,8 +65,7 @@ function Hotel2() {
             </div>
             <div className="div3">
                 <iframe
-                    title = "Hard Rock Hotel"
-                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127093.28037294182!2d100.15915374595089!3d5.467688579641413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x304ae7fdb471d61d%3A0xed51474b3f6eda01!2sBatu%20Ferringhi%20Beach%2C%2011100%20Batu%20Ferringghi%2C%20Pulau%20Pinang!3m2!1d5.4676941999999995!2d100.24155569999999!5e0!3m2!1sen!2smy!4v1736270653536!5m2!1sen!2smy"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.664974398775!2d100.23898077498454!3d5.467694194511937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae7fdb471d61d%3A0xed51474b3f6eda01!2sHard%20Rock%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1736348291540!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
