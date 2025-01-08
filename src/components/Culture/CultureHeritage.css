@@ -17,8 +17,8 @@
 .Part1, .Part2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 2px;
     margin-top: 20px;
 }
@@ -35,7 +35,7 @@
 
 .left-image, .right-image {
     flex: 1;
-    max-width: 260px;
+    max-width: 259px;
     height: 300px;
 }
 
@@ -93,6 +93,12 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.entrance-fee-container h3 {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.0;
+}
+
 .entrance-fee-container {
     width: 100%;
     max-width: 700px;
@@ -113,7 +119,8 @@
 }
 
 .entrance-fee-table {
-    width: 100%;
+    width: 700px;
+    margin: 20px 0;
     border-collapse: collapse;
 }
 
