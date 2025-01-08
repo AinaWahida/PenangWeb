@@ -17,8 +17,8 @@
 .Part1, .Part2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 2px;
     margin-top: 20px;
 }
@@ -35,7 +35,7 @@
 
 .left-image, .right-image {
     flex: 1;
-    max-width: 260px;
+    max-width: 259px;
     height: 300px;
 }
 
