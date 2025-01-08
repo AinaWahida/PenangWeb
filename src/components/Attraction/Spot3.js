@@ -15,7 +15,7 @@ function Spot3() {
     };
 
     return (
-        <div className="section">
+        <div className="tourist-section">
             <h1>ESCAPE Penang</h1>
             <div className="part1">
                 <p>
@@ -59,7 +59,7 @@ function Spot3() {
                 <iframe
                     title="ESCAPE Penang"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.7839054034207!2d100.214038!3d5.449740500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3a45d25df75%3A0xe55b46784fbcb260!2sESCAPE%20Penang!5e0!3m2!1sen!2smy!4v1735545155477!5m2!1sen!2smy"
-                    width="480" height="300" allowFullScreen="" loading="lazy"
+                    width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
                 <div className="fee">

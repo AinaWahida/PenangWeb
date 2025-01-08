@@ -15,7 +15,7 @@ function Spot4 () {
     };
 
     return (
-        <div className="section">
+        <div className="tourist-section">
             <h1>Entopia by Penang Butterfly Farm</h1>
             <div className="part1">
                 <p>
@@ -59,8 +59,9 @@ function Spot4 () {
                 <iframe
                     title="Entopia"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.7979166057685!2d100.21499430000001!3d5.4476214999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae858a51c78f3%3A0x78cc63e455e38b1f!2sEntopia%20by%20Penang%20Butterfly%20Farm!5e0!3m2!1sen!2smy!4v1735545719461!5m2!1sen!2smy"
-                    width="480" height="300" allowFullScreen="" loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    width="100%" height="300" allowFullScreen="" loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade">
+                </iframe>
                 <div className="fee">
                     <h3>Operating Hours: 9.00am - 6.00pm</h3>
                     <h3>Ticket Price:</h3>

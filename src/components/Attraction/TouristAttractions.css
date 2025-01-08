@@ -37,7 +37,7 @@
     color: rosybrown;
 }
 
-.section {
+.tourist-section {
     padding: 20px 50px;
     font-family: "DM Serif Text", serif;
 }
@@ -61,7 +61,7 @@
     font-size: 70px;
 }
 /* Section 1*/
-.section h1{
+.tourist-section h1{
     text-align: center;
     font-size: 40px;
     color: white;
@@ -170,7 +170,7 @@
     font-weight: bold;
     cursor: pointer;
     user-select: none;
-}cd
+}
 
 /* Animation */
 @keyframes fadeIn {
@@ -179,5 +179,95 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+/* Phone View */
+@media screen and (max-width: 768px) {
+    .bar {
+        padding: 10px 20px;
+        flex-direction: row;  /* Stack logo and menu vertically */
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .Menu {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .Menu li {
+        padding-top: 4px;
+    }
+
+    .Menu li a {
+        font-size: 15px;
+    }
+
+    /* .intro: Adjusting the hero image section */
+    .intro {
+        height: 50vh;
+        background-position: top center;
+    }
+
+    .intro-content h1 {
+        font-size: 55px;
+        padding-bottom: 65px;
+    }
+
+    /* .section: Adjust padding */
+    .tourist-section {
+        padding: 15px 30px;
+    }
+
+    /* .part1, .part2, .part3: Layout on small screens */
+    .part1, .part2, .part3 {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 30px;
+        padding: 10px 20px;
+    }
+
+    .part1 p, .part2 p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    /* .collage: Adjust collage layout */
+    .collage {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .left img, .right img {
+        width: 100%;  /* Make images responsive */
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* .fee: Table adjustments */
+    .fee table {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .fee table th, .fee table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .fee h3 {
+        font-size: 18px;
+    }
+
+    /* Ensure fee section text doesn't overflow */
+    .fee p {
+        font-size: 14px;
     }
 }

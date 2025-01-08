@@ -1,52 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Serif+Text:ital@0;1&family=Itim&family=Pacifico&display=swap');
 
-.bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-}
-
-.logo {
-    color: white;
-    font-size: 1.5rem;
-    font-family: "Pacifico", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.Menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin-right: 10px;
-    padding: 0;
-}
-.Menu li {
-    font-size: 1rem;
-}
-
-.Menu li a {
-    color: white;
-    text-decoration: none;
-    font-family: "Itim", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 19px;
-}
-.Menu li a:hover {
-    color: rosybrown;
-}
-
 .section {
     padding: 20px 50px;
     font-family: "DM Serif Text", serif;
-}
-.intro-content h1{
-    padding-bottom: 120px;
-    color: rgba(255, 255, 255, 0.9);
-    font-family: "Outfit", serif;
-    font-weight: 900;
-    font-size: 70px;
 }
 
 .section h1{

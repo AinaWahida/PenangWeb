@@ -15,7 +15,7 @@ function Spot2 () {
     };
 
     return (
-        <div className="section">
+        <div className="tourist-section">
             <h1>Penang Hill</h1>
             <div className="part1">
                 <p>
@@ -60,7 +60,7 @@ function Spot2 () {
                 <iframe
                     title="Penang Hill"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15888.223494067925!2d100.2773317!3d5.4084612000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac28738d4ea43%3A0xf862c72e1eb12bb9!2sPenang%20Hill!5e0!3m2!1sen!2smy!4v1735543150127!5m2!1sen!2smy"
-                    width="480" height="300" allowFullScreen="" loading="lazy"
+                    width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
                 <div className="fee">

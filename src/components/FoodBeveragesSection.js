@@ -9,8 +9,7 @@ function FoodBeveragesSection() {
         <div className="food-section">
             <div className="title">
                 <h2>Discover hidden flavors in every bite and sip</h2>
-                <Link to="/food-beverages" className="see-more-button">See More <FontAwesomeIcon
-                    icon={faArrowCircleRight}/></Link>
+                <Link to="/food-beverages" className="see-more-button">See More <FontAwesomeIcon icon={faArrowCircleRight}/></Link>
             </div>
             <div className="description"> Delight in every bite and sip as you uncover unique flavors and hidden culinary gems, crafted to satisfy your cravings and elevate your dining experience.
             </div>
