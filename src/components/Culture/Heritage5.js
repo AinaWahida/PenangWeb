@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Heritage4() {
+function Heritage5() {
     const [isOpen, setIsOpen] = useState(false);
     const [currentImage, setCurrentImage] = useState("");
 
@@ -15,9 +15,19 @@ function Heritage4() {
     };
 
     return (
-        <div className="heritageSection">
-            <h1> Armenian Street</h1>
+        <div className="heritage-section">
+            <h1>Kapitan Keling Mosque</h1>
             <div className="Part1">
+                <p>
+                    The Kapitan Keling Mosque, the first Arab-Indian mosque and the largest historic mosque in
+                    Georgetown, stands as a significant landmark for visitors to explore in Penang.
+                    With its stunning Moghul architecture, including intricate minarets and domes, it is a must-visit
+                    destination.
+                    To enter the mosque, visitors should dress appropriately, as improper attire may result in denied
+                    entry. Additionally, plan your visit outside the five daily Muslim prayer times.
+                    The Kapitan Keling Mosque is a popular spot for photography, attracting travelers from around the
+                    world and being one of the city's most photographed landmarks.
+                </p>
                 <div className="image-container">
                     <div className="right-image">
                         <img
@@ -46,53 +56,32 @@ function Heritage4() {
                     </div>
                 </div>
 
-                <div className="description-container">
-                    <p>
-                        Armenian Street, or Lebuh Armenian, is a vibrant cultural hub in the heart of George Town, known for its colorful street art and rich history.
-                        The street is lined with heritage shophouses, many of which have been converted into art galleries, cafes, and boutique shops.
-                        Visitors can enjoy a leisurely stroll while discovering striking murals, including the famous "Little Children on a Bicycle" by Ernest Zacharevic.
-                        This lively street offers a perfect blend of history, art, and culture, making it a favorite spot for tourists and locals alike.
-                        With its blend of old-world charm and contemporary creativity, Armenian Street truly captures the spirit of George Town’s ever-evolving cultural scene.
-                    </p>
-                </div>
-            </div>
-
-            <div className="Part2">
-                <div className="description-container">
-                    <p>
-                        Exploring Armenian Street is free of charge, allowing visitors to experience its unique blend of heritage and art at no cost.
-                        Armenian Street is not only a popular spot for its vibrant street art but also an area steeped in history.
-                        It is one of the oldest streets in George Town, dating back to the early 19th century, and was once home to a large Armenian community that contributed greatly to the development of Penang’s commercial and cultural landscape.
-                        Today, the street retains its historical charm with beautifully preserved architecture and an array of quaint shops offering local crafts, souvenirs, and antiques.
-                        Alongside the murals, visitors can also explore the nearby Armenian Street Temple, an iconic religious site that adds to the street’s historical significance.
-                    </p>
-                </div>
-
-                <div className="map-container">
+                <div className="Part2">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.0101619229004!2d100.33450287364296!3d5.415421235050108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac392206169e9%3A0xa4ce7dbc3851110e!2sLbh%20Armenian%2C%20George%20Town%2C%2010450%20George%20Town%2C%20Pulau%20Pinang!5e0!3m2!1sen!2smy!4v1736095556004!5m2!1sen!2smy"
-                        width="600"
-                        height="450"
-                        style={{border: 0}}
-                        allowFullScreen=""
-                        loading="lazy"
+                        title="Kapitan Keling Mosque"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9718614547564!2d100.34033617498417!3d5.421245994558024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac394a6effa67%3A0x55a2e415f7cccc3b!2sHameed%20Pata%20Mee%20Sotong!5e0!3m2!1sen!2smy!4v1736241667426!5m2!1sen!2smy"
+                        width="500" height="300" allowFullScreen="" loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade">
-
                     </iframe>
+                    <div className="left">
+                        <p>
+                            In addition, the Kapitan Keling Mosque holds immense cultural and historical significance as a testament to the early Indian Muslim community in Penang.
+                            Its architecture, a harmonious blend of Moghul, Moorish, and Indian Islamic influences, is characterized by its grand domes, elegant minarets, and intricate calligraphy, making it a striking visual centerpiece in Georgetown.
+                            The mosque’s serene atmosphere is complemented by its well-maintained gardens and fountains, providing a peaceful retreat for visitors.
+                            For those interested in delving deeper into its history and significance, guided tours are available, offering insights into Islamic practices and the mosque’s role in fostering community harmony.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            {isOpen && (
-                <div className="modal" onClick={closeModal}>
-                    <span className="close" onClick={closeModal}>
-                        &times;
-                    </span>
-                    <img className="modal-content" src={currentImage} alt="Popup"/>
-                </div>
-            )}
+                {isOpen && (
+                    <div className="modal" onClick={closeModal}>
+                        <span className="close" onClick={closeModal}>&times;</span>
+                        <img className="modal-content" src={currentImage} alt="Popup" onClick={(e) => e.stopPropagation()} />
+                    </div>
+                )}
+            </div>
         </div>
     );
 }
 
-export default Heritage4;
-
+export default Heritage5;
