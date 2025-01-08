@@ -8,7 +8,7 @@ function CultureHeritageSection() {
     return (
         <div className="heritage-section">
             <div className="title">
-                <h2>Culture & Heritages</h2>
+                <h2>Discover the timeless beauty and stories hidden in every place of culture and heritage</h2>
                 <Link to="/culture-heritage" className="see-more-button">See More <FontAwesomeIcon icon={faArrowCircleRight}/></Link>
             </div>
             <div className="description">Immerse yourself in the vibrant traditions, historic landmarks, and cultural treasures that make Penang unique. Discover stories of the past and celebrate the rich heritage that lives on today.</div>
