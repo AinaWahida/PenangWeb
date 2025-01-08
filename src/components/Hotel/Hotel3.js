@@ -17,11 +17,11 @@ function Hotel3() {
 
     return(
         <div className = "section">
-            <h1>Lexis Hotel</h1>
+            <h1>Lexis Suites</h1>
             <div className= "div1">
                 <div className="collage">
                     <div className="left">
-                        <img src={require('./images-hotel/hotel1.jpg')} alt="img1"
+                        <img src={require('./images-hotel/hotel3.jpg')} alt="img1"
                              onClick={() => openModal(require('./images-hotel/hotel1.jpg'))}/>
                         <img src={require('./images-hotel/Hotel1_1.jpg')} alt="img5"
                              onClick={() => openModal(require('./images-hotel/Hotel1_1.jpg'))}/>
@@ -33,11 +33,10 @@ function Hotel3() {
                              onClick={() => openModal(require('./images-hotel/Hotel1_3.jpg'))}/>
                     </div>
                 </div>
-                <p>Shangri-La Golden Sands, Penang is a charming 4-star beachfront resort located on Batu Feringgi Beach, known for its welcoming family-friendly atmosphere and a wide range of recreational amenities.
-                    The resort offers spacious and comfortable guestrooms and suites designed to accommodate families, many of which feature private balconies with views of the gardens, pool, or sea.
-                    Children will be delighted by the Splash Zone mini waterpark, complete with water slides and fountains, as well as the Adventure Zone, an indoor play area with exciting slides and activities.
-                    The Kids Club organizes engaging programs to keep younger guests entertained, making the resort an excellent choice for family vacations.
-                    Dining options include the all-day Garden Café, offering a mix of international and local cuisines, and Sigi’s Bar & Grill, a casual beachfront restaurant serving Italian dishes and barbecue favorites with stunning sea views. </p>
+                <p>Lexis Suites Penang is a luxurious 5-star beachfront resort located in Teluk Kumbar, offering panoramic views of the Straits of Malacca.
+                    Each of its 222 spacious suites features a private pool and steam room, ensuring guests enjoy unparalleled privacy and relaxation.
+                    The resort boasts exceptional dining options, including the Roselle Coffee House, which serves a wide array of local and international cuisines, and UMI Japanese Restaurant, renowned for its authentic Japanese dishes.
+                    With its serene beachfront location and proximity to Penang International Airport, the resort is a perfect choice for travelers seeking a blend of comfort and convenience.</p>
             </div>
             <div className= "div2">
                 <p>
@@ -69,7 +68,7 @@ function Hotel3() {
             </div>
             <div className="div3">
                 <iframe
-                    title="Shangri-La Golden Sands"
+                    title="Lexis Suites"
                     src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127091.45083816827!2d100.16875234601757!3d5.476298470899102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x304ae7fc638b5711%3A0x727e15af4b3c60e3!2sJalan%20Batu%20Ferringhi%2C%20Kampung%20Tanjung%20Huma%2C%2011100%20Batu%20Ferringhi%2C%20Pulau%20Pinang!3m2!1d5.4763041!2d100.2511543!5e0!3m2!1sen!2smy!4v1736269051777!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">

@@ -29,7 +29,7 @@ function HotelsSection() {
                 </div>
                 <div className="hotel-item">
                     <img src={require('./Hotel/images-hotel/hotel3.jpg')} alt="Hotel 3"/>
-                    <h3>Lexis Hotel</h3>
+                    <h3>Lexis Suites</h3>
                     <p>Georgetown</p>
                     <div className="hotel-rating">★★★★</div>
                     <p>Relax in spacious rooms with private pools overlooking the serene waterfront.</p>
