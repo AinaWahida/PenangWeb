@@ -5,6 +5,7 @@ import Heritage1 from "./Heritage1";
 import Heritage2 from "./Heritage2";
 import Heritage3 from "./Heritage3";
 import Heritage4 from "./Heritage4";
+import Heritage5 from "./Heritage5";
 
 const CultureHeritage = () => {
     return (
@@ -29,6 +30,8 @@ const CultureHeritage = () => {
             <Heritage2 />
             <Heritage3 />
             <Heritage4 />
+            <Heritage5 />
+
         </div>
     );
 };

@@ -34,7 +34,7 @@ function CultureHeritageSection() {
                     <p>Discover vibrant street art and immerse yourself in Penang's creative scene.</p>
                 </div>
                 <div className="heritage-item">
-                    <img src={require("./Culture/images-heritage/heritage4.1.jpg")} alt="Heritage 4"/>
+                    <img src={require("./Culture/images-heritage/heritage5.1.jpeg")} alt="Heritage 5"/>
                     <h3>Kapitan Keling Mosque</h3>
                     <p>Visit the Kapitan Keling Mosque in Georgetown, a stunning landmark of Moghul architecture and cultural heritage.</p>
                 </div>
