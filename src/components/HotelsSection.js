@@ -28,16 +28,16 @@ function HotelsSection() {
                     <p>Experience rock-star treatment with vibrant entertainment and a stunning poolside.</p>
                 </div>
                 <div className="hotel-item">
-                    <img src={require('./Hotel/images-hotel/hotel3.jpg')} alt="Hotel 3"/>
+                    <img src={require('./Hotel/images-hotel/Hotel3_1.jpg')} alt="Hotel 3"/>
                     <h3>Lexis Suites</h3>
-                    <p>Georgetown</p>
+                    <p>George Town</p>
                     <div className="hotel-rating">★★★★</div>
                     <p>Relax in spacious rooms with private pools overlooking the serene waterfront.</p>
                 </div>
                 <div className="hotel-item">
                     <img src={require('./Hotel/images-hotel/hotel4.jpg')} alt="Hotel 4"/>
                     <h3>Tido Hostel</h3>
-                    <p>Penang Island</p>
+                    <p>George Town</p>
                     <div className="hotel-rating">★★★</div>
                     <p>Enjoy budget-friendly comfort in a modern setting close to local attractions.</p>
                 </div>

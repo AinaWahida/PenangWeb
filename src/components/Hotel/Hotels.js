@@ -5,6 +5,7 @@ import Hotel1 from "./Hotel1";
 import Hotel2 from "./Hotel2";
 import Hotel3 from "./Hotel3";
 import Hotel4 from "./Hotel4";
+import Hotel5 from "./Hotel5";
 
 const Hotels = () => {
     return (
@@ -29,6 +30,7 @@ const Hotels = () => {
             <Hotel2 />
             <Hotel3 />
             <Hotel4 />
+            <Hotel5 />
         </div>
     );
 };
