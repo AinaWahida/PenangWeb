@@ -56,6 +56,7 @@ function Heritage2() {
 
             <div className="Part2">
                 <div className="entrance-fee">
+
                     <h3>Entrance Fee</h3>
                     <h3>Operating Hours: Monday to Sunday from 9:30 am to 5 pm</h3>
                     <table className="entrance-fee-table">
