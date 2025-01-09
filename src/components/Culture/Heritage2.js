@@ -85,6 +85,7 @@ function Heritage2() {
 
                 <div className="map-container">
                     <iframe
+                        title="Pinang Peranakan Mansion"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.994344602399!2d100.3412046!3d5.417827499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac38fdcf36b09%3A0x8b7cdd7809de1be6!2sPinang%20Peranakan%20Mansion!5e0!3m2!1sen!2smy!4v1736091729893!5m2!1sen!2smy"
                         width="600"
                         height="450"

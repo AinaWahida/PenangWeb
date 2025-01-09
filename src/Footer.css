@@ -1,0 +1,84 @@
+/* General Footer Styles */
+.footer {
+    background-color: #333; /* Dark gray background */
+    color: white; /* White text */
+    padding: 5px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 60px;
+}
+
+/* Footer Column Styles */
+.footer-column {
+    flex: 1 1 30%; /* Columns take up 30% width */
+
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #555; /* Subtle border */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: 1 1 100%; /* Each column takes full width */
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center; /* Center align icons */
+    }
+}

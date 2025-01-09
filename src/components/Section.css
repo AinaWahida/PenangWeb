@@ -44,6 +44,7 @@
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .attraction-item, .food-item, .heritage-item, .hotel-item {

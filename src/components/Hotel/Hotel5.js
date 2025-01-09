@@ -16,7 +16,7 @@ function Hotel5() {
     };
 
     return(
-        <div className = "section">
+        <div className = "HotelSection">
             <h1>M Qube Hotel</h1>
             <div className= "div1">
                 <div className="collage">
@@ -59,6 +59,7 @@ function Hotel5() {
             </div>
             <div className="div3">
                 <iframe
+                    title="M Qube"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4954003670955!2d100.2993233749835!3d5.341077494637542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac057005c1377%3A0x55b7da679321dcc4!2sM%20Qube%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1736356233321!5m2!1sen!2smy"
                     width="100%" height="300" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">

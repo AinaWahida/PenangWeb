@@ -6,6 +6,7 @@ import FoodBeverages from "./components/Food/FoodBeverages";
 import Hotels from "./components/Hotel/Hotels";
 import CultureHeritage from "./components/Culture/CultureHeritage";
 import Home from "./Home"; // Main sections combined in one Home
+import Foot from "./Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/hotels" element={<Hotels />} />  {/*Route to hotel page*/}
                 <Route path="/culture-heritage" element={<CultureHeritage />} />  {/*Route to culture and heritage page*/}
             </Routes>
+            <Foot/>
         </Router>
     );
 }

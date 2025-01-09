@@ -69,6 +69,7 @@ function Heritage3() {
 
                 <div className="map-container">
                     <iframe
+                        title="George Town UNESCO World Heritage Site"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.999760550612!2d100.3379775!3d5.4170036999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac391217398d1%3A0xe3374c478de7ca59!2sGeorgetown%20UNESCO%20Historic%20Site!5e0!3m2!1sen!2smy!4v1736094382747!5m2!1sen!2smy"
                         width="600"
                         height="450"
@@ -76,7 +77,6 @@ function Heritage3() {
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade">
-
                     </iframe>
                 </div>
             </div>

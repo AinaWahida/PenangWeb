@@ -73,10 +73,10 @@
 .part1, .part2, .part3 {
     display: flex;
     align-items: center;
-    text-align: justify;
     gap: 70px;
     padding: 15px 60px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    text-align: justify;
 }
 .part1 p, .part2 p {
     font-size: 18px;
