@@ -27,7 +27,7 @@ function Footer() {
                             <img src={require("./components/images/twit.png")} alt="Twitter"/>
                         </a>
                         <a href="https://www.facebook.com/visitpenang/" target="_blank" rel="noreferrer">
-                            <img src={require("./components/images/facebook.png")}/>
+                            <img src={require("./components/images/facebook.png")} alt="Facebook"/>
                         </a>
                     </div>
                 </div>
