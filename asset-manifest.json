@@ -1,8 +1,28 @@
 {
   "files": {
-    "main.css": "/PenangWeb/static/css/main.fa4bf147.css",
-    "main.js": "/PenangWeb/static/js/main.d0cf91cd.js",
+    "main.css": "/PenangWeb/static/css/main.7d34e2eb.css",
+    "main.js": "/PenangWeb/static/js/main.abad98ce.js",
+    "static/media/pasemburkareem.mp4": "/PenangWeb/static/media/pasemburkareem.430e131b0a749dd63f3c.mp4",
+    "static/media/penanghill.mp4": "/PenangWeb/static/media/penanghill.51a13d8326c041397ee5.mp4",
+    "static/media/meesotong.mp4": "/PenangWeb/static/media/meesotong.65a9817876ad7c5ca4dc.mp4",
+    "static/media/mqube.mp4": "/PenangWeb/static/media/mqube.f86397b8015cb892424d.mp4",
+    "static/media/tidohostel.mp4": "/PenangWeb/static/media/tidohostel.4331ccb3e0ddb54526be.mp4",
+    "static/media/wantanmee.mp4": "/PenangWeb/static/media/wantanmee.40dabfcce76fa5e09d0e.mp4",
+    "static/media/kapitankeling.mp4": "/PenangWeb/static/media/kapitankeling.e0d69f29ff4c761d4afa.mp4",
+    "static/media/escape.mp4": "/PenangWeb/static/media/escape.525c979ed8b92182d362.mp4",
+    "static/media/heritagesite.mp4": "/PenangWeb/static/media/heritagesite.5ab7ec7f7f4138e43139.mp4",
+    "static/media/peranakanmansion.mp4": "/PenangWeb/static/media/peranakanmansion.394ae0293d9a2eb7419e.mp4",
     "static/media/spot2.3.jpg": "/PenangWeb/static/media/spot2.3.be6348dda857c8ec0cf0.jpg",
+    "static/media/hardrock.mp4": "/PenangWeb/static/media/hardrock.a932f163a54844536185.mp4",
+    "static/media/thetop.mp4": "/PenangWeb/static/media/thetop.72187c1e42a559739e01.mp4",
+    "static/media/shangrila.mp4": "/PenangWeb/static/media/shangrila.e8444e5145ded674c631.mp4",
+    "static/media/lexis.mp4": "/PenangWeb/static/media/lexis.5a3fcd4b528e486f7808.mp4",
+    "static/media/aistingkap.mp4": "/PenangWeb/static/media/aistingkap.586f0b0085803e487590.mp4",
+    "static/media/armenianstreet.mp4": "/PenangWeb/static/media/armenianstreet.3982fe29821830f4a92d.mp4",
+    "static/media/nationalpark.mp4": "/PenangWeb/static/media/nationalpark.a931e9b7090044ba77d1.mp4",
+    "static/media/laksakuahpekat.mp4": "/PenangWeb/static/media/laksakuahpekat.c7ef77e29747c1b81cb5.mp4",
+    "static/media/kekloksi.mp4": "/PenangWeb/static/media/kekloksi.ed643c99407c4aa71135.mp4",
+    "static/media/entopia.mp4": "/PenangWeb/static/media/entopia.d297c240dc8d356195d0.mp4",
     "static/media/image0.1.jpeg": "/PenangWeb/static/media/image0.1.2ccd4ab8354284deec55.jpeg",
     "static/media/heritage3.1.jpg": "/PenangWeb/static/media/heritage3.1.6626f5fc96849a136f75.jpg",
     "static/media/heritage2.2.jpg": "/PenangWeb/static/media/heritage2.2.feca7be2c54b93e20ca9.jpg",
@@ -124,11 +144,11 @@
     "static/media/image 2.2.jpeg": "/PenangWeb/static/media/image 2.2.7fc77664af0fc2fc48df.jpeg",
     "static/media/Hotel1_7.jpg": "/PenangWeb/static/media/Hotel1_7.2749af3acff044b7b3f1.jpg",
     "index.html": "/PenangWeb/index.html",
-    "main.fa4bf147.css.map": "/PenangWeb/static/css/main.fa4bf147.css.map",
-    "main.d0cf91cd.js.map": "/PenangWeb/static/js/main.d0cf91cd.js.map"
+    "main.7d34e2eb.css.map": "/PenangWeb/static/css/main.7d34e2eb.css.map",
+    "main.abad98ce.js.map": "/PenangWeb/static/js/main.abad98ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4bf147.css",
-    "static/js/main.d0cf91cd.js"
+    "static/css/main.7d34e2eb.css",
+    "static/js/main.abad98ce.js"
   ]
 }
