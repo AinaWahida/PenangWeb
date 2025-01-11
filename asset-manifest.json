@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PenangWeb/static/css/main.8d84569a.css",
+    "main.css": "/PenangWeb/static/css/main.40fd8cb4.css",
     "main.js": "/PenangWeb/static/js/main.a298e676.js",
     "static/media/pasemburkareem.mp4": "/PenangWeb/static/media/pasemburkareem.430e131b0a749dd63f3c.mp4",
     "static/media/penanghill.mp4": "/PenangWeb/static/media/penanghill.51a13d8326c041397ee5.mp4",
@@ -144,11 +144,11 @@
     "static/media/image 2.2.jpeg": "/PenangWeb/static/media/image 2.2.7fc77664af0fc2fc48df.jpeg",
     "static/media/Hotel1_7.jpg": "/PenangWeb/static/media/Hotel1_7.2749af3acff044b7b3f1.jpg",
     "index.html": "/PenangWeb/index.html",
-    "main.8d84569a.css.map": "/PenangWeb/static/css/main.8d84569a.css.map",
+    "main.40fd8cb4.css.map": "/PenangWeb/static/css/main.40fd8cb4.css.map",
     "main.a298e676.js.map": "/PenangWeb/static/js/main.a298e676.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d84569a.css",
+    "static/css/main.40fd8cb4.css",
     "static/js/main.a298e676.js"
   ]
 }
