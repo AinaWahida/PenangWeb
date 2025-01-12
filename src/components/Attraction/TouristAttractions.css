@@ -37,13 +37,8 @@
     color: rosybrown;
 }
 
-.tourist-section {
-    padding: 20px 50px;
-    font-family: "DM Serif Text", serif;
-}
-
 /*Introduction*/
-.intro {
+.introAttraction {
     background-image: url('images-attraction/intro4.jpg');
     background-size: cover;
     background-position: center;
@@ -60,23 +55,29 @@
     font-weight: 900;
     font-size: 70px;
 }
+
+.tourist-section {
+    padding: 20px 60px;
+    background-color: #f2f2f2;
+    font-family: 'DM Serif Text', serif;
+}
 /* Section 1*/
 .tourist-section h1{
-    text-align: center;
+    color: #FFFFFF;
     font-size: 40px;
-    color: white;
-    font-family: "Carter One", cursive;
-    background: rgba(2, 25, 69, 0.85);
-    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(2, 25, 69, 0.85);
     padding: 10px;
+    font-family: 'Carter One', cursive;
+    border-radius: 8px;
 }
 .part1, .part2, .part3 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    gap: 70px;
-    padding: 15px 60px;
-    flex-wrap: nowrap;
-    text-align: justify;
+    gap: 20px;
+    margin-top: 40px;
 }
 .part1 p, .part2 p {
     font-size: 18px;
@@ -87,6 +88,13 @@
     align-items: center;
     gap: 5px;
 }
+
+.left, .right {
+    flex: 1;
+    max-width: 259px;
+    height: 300px;
+}
+
 .left{
     display: block;
 }
@@ -195,12 +203,13 @@
 }
 
 /* Phone View */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .bar {
-        padding: 10px 20px;
+        padding: 10px 10px;
         flex-direction: row;  /* Stack logo and menu vertically */
         align-items: center;
         justify-content: space-between;
+        gap: 10px;
     }
 
     .logo {
@@ -209,7 +218,7 @@
 
     .Menu {
         flex-direction: row;
-        gap: 10px;
+        gap: 5px;
     }
 
     .Menu li {
@@ -217,32 +226,35 @@
     }
 
     .Menu li a {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     /* .intro: Adjusting the hero image section */
-    .intro {
+    .introAttraction {
         height: 50vh;
         background-position: top center;
     }
 
     .intro-content h1 {
-        font-size: 55px;
+        font-size: 50px;
         padding-bottom: 65px;
     }
 
     /* .section: Adjust padding */
     .tourist-section {
-        padding: 15px 30px;
+        padding: 20px 30px;
+    }
+
+    .tourist-section h1 {
+        font-size: 28px;
+        padding: 8px;
     }
 
     /* .part1, .part2, .part3: Layout on small screens */
     .part1, .part2, .part3 {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        text-align: left;
-        gap: 30px;
-        padding: 10px 20px;
+        gap: 50px;
     }
 
     .part1 p, .part2 p {
@@ -250,17 +262,15 @@
         text-align: justify;
     }
 
-    /* .collage: Adjust collage layout */
-    .collage {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
+
+    .left img {
+        max-width: 100%;  /* Make images responsive */
+        height: 150px;
     }
 
-    .left img, .right img {
-        width: 100%;  /* Make images responsive */
-        height: auto;
-        border-radius: 10px;
+    .right img {
+        max-width: 100%;  /* Make images responsive */
+        height: 310px;
     }
 
     /* .fee: Table adjustments */

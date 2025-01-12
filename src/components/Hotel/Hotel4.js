@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
 
 function Hotel4() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,12 +16,14 @@ function Hotel4() {
 
     return(
         <div className = "HotelSection">
-            <h1>Tido Hostel</h1>
+            <h1>TIDO Hostel</h1>
             <div className="div1">
+                <div className="description-container">
                 <p>Tido Hostel Penang is a city hostel situated in the heart of George Town, Penang, within the UNESCO heritage site.
                     The hostel offers a variety of accommodations, including sleek dormitory rooms and private rooms, all designed with modern amenities to ensure a comfortable stay.
                     Guests can enjoy free Wi-Fi throughout the property, air-conditioned rooms, and a cool hangout space to read, interact with others, or watch TV.
                     The hostel's central location provides easy access to popular attractions, with Cheong Fatt Tze Mansion approximately 600 meters away and Prangin Mall about 1.1 kilometres from the property.</p>
+                </div>
                 <div className="collage">
                     <div className="right">
                         <img src={require('./images-hotel/hotel4.jpg')} alt="img1"
@@ -52,11 +53,13 @@ function Hotel4() {
                     </div>
 
                 </div>
+                <div className="description-container">
                 <p>
                     For recreation, Tido Hostel Penang features a game room equipped with darts and board games, offering guests opportunities to socialize and unwind.
                     The hostel also provides a 24-hour reception, express check-in and check-out services, and a snack bar for added convenience.
                     With its unique architecture, eco-environmental sensibilities, and range of facilities, Tido Hostel Penang aims to deliver a sense of calm, youth, and peace to its guests, making it an ideal choice for budget travelers seeking modern comfort amidst cultural charm.
                 </p>
+                </div>
 
             </div>
             <div className="div3">
@@ -70,10 +73,13 @@ function Hotel4() {
             <div className="div4">
                 <div className="book">
                     <h3>Click the link below to book now!</h3>
-                    <Link
-                        to="https://www.booking.com/hotel/my/tido-penang.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCC3RpZG8tcGVuYW5nSDNYA2ihAYgBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gCj7f6uwbAAgHSAiQ0ZjZjNDFhNi02NmZjLTQxNzMtYmU4Zi03NDVlOTUxZTYwYmTYAgTgAgE&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&">
+                    <a
+                        href="https://www.booking.com/hotel/my/tido-penang.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCC3RpZG8tcGVuYW5nSDNYA2ihAYgBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gCj7f6uwbAAgHSAiQ0ZjZjNDFhNi02NmZjLTQxNzMtYmU4Zi03NDVlOTUxZTYwYmTYAgTgAgE&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <button className="navigate-button">Book Now</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
 

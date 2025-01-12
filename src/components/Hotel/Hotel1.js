@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
 
 function Hotel1() {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,13 +32,16 @@ function Hotel1() {
                              onClick={() => openModal(require('./images-hotel/Hotel1_3.jpg'))}/>
                     </div>
                 </div>
+                <div className="description-container">
                 <p>Shangri-La Golden Sands, Penang is a charming 4-star beachfront resort located on Batu Feringgi Beach, known for its welcoming family-friendly atmosphere and a wide range of recreational amenities.
                     The resort offers spacious and comfortable guestrooms and suites designed to accommodate families, many of which feature private balconies with views of the gardens, pool, or sea.
                     Children will be delighted by the Splash Zone mini waterpark, complete with water slides and fountains, as well as the Adventure Zone, an indoor play area with exciting slides and activities.
                     The Kids Club organizes engaging programs to keep younger guests entertained, making the resort an excellent choice for family vacations.
                     Dining options include the all-day Garden Café, offering a mix of international and local cuisines, and Sigi’s Bar & Grill, a casual beachfront restaurant serving Italian dishes and barbecue favorites with stunning sea views. </p>
+                </div>
             </div>
             <div className= "div2">
+                <div className="description-container">
                 <p>
                     The resort provides a host of facilities catering to relaxation and adventure.
                     Guests can unwind by the outdoor pools surrounded by landscaped gardens, enjoy a soak in the
@@ -52,6 +54,7 @@ function Hotel1() {
                     is a perfect blend of comfort, entertainment, and exploration, ensuring a fulfilling stay for every
                     traveler.
                 </p>
+                </div>
                 <div className="collage">
                     <div className="left">
                         <img src={require('./images-hotel/Hotel1_4.webp')} alt="img5"
@@ -78,10 +81,13 @@ function Hotel1() {
             <div className="div4">
                 <div className="book">
                     <h3>Click the link below to book now!</h3>
-                    <Link
-                        to="https://www.booking.com/hotel/my/golden-sands-resort-by-shangri-la.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCIWdvbGRlbi1zYW5kcy1yZXNvcnQtYnktc2hhbmdyaS1sYUgzWANooQGIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4Aq6l8LsGwAIB0gIkNDE2ZTg2ZGItNDhhMC00YjliLTliMjQtOGZhNDYxOTRjYjFi2AIE4AIB&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&">
+                    <a
+                        href="https://www.booking.com/hotel/my/golden-sands-resort-by-shangri-la.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCIWdvbGRlbi1zYW5kcy1yZXNvcnQtYnktc2hhbmdyaS1sYUgzWANooQGIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4Aq6l8LsGwAIB0gIkNDE2ZTg2ZGItNDhhMC00YjliLTliMjQtOGZhNDYxOTRjYjFi2AIE4AIB&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <button className="navigate-button">Book Now</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
 

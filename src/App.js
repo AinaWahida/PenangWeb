@@ -13,13 +13,13 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />  {/*Route to home page*/}
+                <Route path="/PenangWeb" element={<Home />} />  {/*Route to home page*/}
                 <Route path="/tourist-attraction" element={<TouristAttractions />} />  {/*Route to tourist attraction page*/}
                 <Route path="/food-beverages" element={<FoodBeverages />} />  {/*Route to food and beverages page*/}
                 <Route path="/hotels" element={<Hotels />} />  {/*Route to hotel page*/}
                 <Route path="/culture-heritage" element={<CultureHeritage />} />  {/*Route to culture and heritage page*/}
             </Routes>
-            <Foot/>
+            <Foot />
         </Router>
     );
 }

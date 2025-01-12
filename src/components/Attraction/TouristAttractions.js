@@ -10,13 +10,13 @@ import Spot5 from "./Spot5";
 function TouristAttractions() {
     return (
         <div className="page">
-            <div className="intro">
+            <div className="introAttraction">
                 <nav className="bar">
                     <div className="logo">
                         <h1>visitPenang.my</h1>
                     </div>
                     <ul className="Menu">
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/PenangWeb">Home</Link></li>
                         <li><Link to="/food-beverages">Yummy Things</Link></li>
                         <li><Link to="/hotels">Places to Stay</Link></li>
                         <li><Link to="/culture-heritage">About Penang</Link></li>

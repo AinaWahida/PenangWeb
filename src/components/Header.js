@@ -23,7 +23,7 @@ function Header(){
                 <div className="cta-buttons">
                     <Link to="/tourist-attraction" className="btn"><FontAwesomeIcon icon={faLandmark} /> Tourist Attractions</Link>
                     <Link to="/food-beverages" className="btn"><FontAwesomeIcon icon={faUtensils} /> Food & Beverages</Link>
-                    <Link to="/culture-heritage" className="btn"><FontAwesomeIcon icon={faGopuram} /> Culture & Heritages</Link>
+                    <Link to="/culture-heritage" className="btn"><FontAwesomeIcon icon={faGopuram} /> Heritages</Link>
                     <Link to="/hotels" className="btn"><FontAwesomeIcon icon={faBed} /> Hotels</Link>
                 </div>
             </div>

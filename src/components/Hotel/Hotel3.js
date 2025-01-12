@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
 
 function Hotel3() {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,18 +32,22 @@ function Hotel3() {
                              onClick={() => openModal(require('./images-hotel/Hotel3_3.jpg'))}/>
                     </div>
                 </div>
+                <div className="description-container">
                 <p>Lexis Suites Penang is a luxurious 5-star beachfront hotel located in Teluk Kumbar, offering panoramic views of the Straits of Malacca.
                     Each of its 222 spacious suites features a private pool and steam room, ensuring guests enjoy unparalleled privacy and relaxation.
                     The resort boasts exceptional dining options, including the Roselle Coffee House, which serves a wide array of local and international cuisines, and UMI Japanese Restaurant, renowned for its authentic Japanese dishes.
                     With its serene beachfront location and proximity to Penang International Airport, the resort is a perfect choice for travelers seeking a blend of comfort and convenience.</p>
+                </div>
             </div>
             <div className= "div2">
+                <div className="description-container">
                 <p>
                     The hotel’s indoor facilities provide ample opportunities for relaxation and recreation.
                     Guests can rejuvenate at the LexSpa, maintain their fitness routines at the O2 Gym, or spend quality time in the Kidz World and Games Room, which feature arcade machines, Xbox consoles, and other interactive entertainment.
                     The Lobby Shop offers daily essentials, snacks, and souvenirs, while the Business Centre caters to corporate needs with internet and printing facilities.
                     Whether it’s indulging in spa treatments, staying active, or enjoying family-friendly amenities, Lexis Suites Penang ensures a memorable experience for guests of all ages.
                 </p>
+                </div>
                 <div className="collage">
                     <div className="left">
                         <img src={require('./images-hotel/Hotel3_4.jpg')} alt="img5"
@@ -71,10 +74,13 @@ function Hotel3() {
             <div className="div4">
                 <div className="book">
                     <h3>Click the link below to book now!</h3>
-                    <Link
-                        to="https://www.booking.com/hotel/my/lexis-suites-penang.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCE2xleGlzLXN1aXRlcy1wZW5hbmdIM1gDaKEBiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuAKxovq7BsACAdICJGJiOTA3YzAyLWU2OTYtNGY0OC05Y2M3LWY4Y2JhYWNjMmFlZNgCBOACAQ&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&">
+                    <a
+                        href="https://www.booking.com/hotel/my/lexis-suites-penang.en-gb.html?aid=356980&label=gog235jc-1DCAsooQFCE2xleGlzLXN1aXRlcy1wZW5hbmdIM1gDaKEBiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuAKxovq7BsACAdICJGJiOTA3YzAyLWU2OTYtNGY0OC05Y2M3LWY4Y2JhYWNjMmFlZNgCBOACAQ&sid=2f32ca8ac362235875bf049f764c337e&dist=0&keep_landing=1&sb_price_type=total&type=total&"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <button className="navigate-button">Book Now</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
 

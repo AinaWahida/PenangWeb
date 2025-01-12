@@ -11,13 +11,13 @@ import Food5 from "../Food/Food5";
 const FoodBeverages = () => {
     return (
         <div className="page">
-            <div className="intro">
+            <div className="introFood">
                 <nav className="bar">
                     <div className="logo">
                         <h1>visitPenang.my</h1>
                     </div>
                     <ul className="Menu">
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/PenangWeb">Home</Link></li>
                         <li><Link to="/tourist-attraction">Places to Go</Link></li>
                         <li><Link to="/hotels">Places to Stay</Link></li>
                         <li><Link to="/culture-heritage">About Penang</Link></li>

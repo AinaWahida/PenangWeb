@@ -101,19 +101,20 @@ body {
 @media screen and (max-width: 768px) {
     /* Navbar Adjustments */
     .navbar {
-        padding: 10px 20px;
+        padding: 10px 10px;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        gap: 10px;
     }
 
     .menu {
         flex-direction: row;
-        gap: 10px;
+        gap: 5px;
     }
 
     .menu li a{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .logo h1 {
@@ -126,7 +127,7 @@ body {
     }
 
     .banner-content h1 {
-        font-size: 55px; /* Decrease the banner heading size */
+        font-size: 50px; /* Decrease the banner heading size */
         margin-bottom: 10px;
     }
 
@@ -146,8 +147,8 @@ body {
     .btn {
         width: 80%; /* Button takes up full width on mobile */
         height: 35px; /* Maintain height for usability */
-        font-size: 14px; /* Adjust font size */
-        padding: 8px 20px;
+        font-size: 10px; /* Adjust font size */
+        padding: 8px 15px;
     }
 
 }
